@@ -1,10 +1,10 @@
 import java.io.File;
 import java.util.Scanner;
 
-public class Solution {
+public class Solution_1 {
 
     public static void main(String... args) {
-        File file = new File("./src/main/resources/input.txt");
+        File file = new File("./src/main/resources/input_1.txt");
 
         try (Scanner scanner = new Scanner(file)) {
             int totalFuel = 0;
